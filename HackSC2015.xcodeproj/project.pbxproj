@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1523AF9E1BF816B000C4B3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523AF9D1BF816B000C4B3DF /* AppDelegate.swift */; };
-		1523AFA01BF816B000C4B3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523AF9F1BF816B000C4B3DF /* ViewController.swift */; };
+		1523AFA01BF816B000C4B3DF /* BarCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523AF9F1BF816B000C4B3DF /* BarCodeScannerViewController.swift */; };
 		1523AFA31BF816B000C4B3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1523AFA11BF816B000C4B3DF /* Main.storyboard */; };
 		1523AFA51BF816B000C4B3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1523AFA41BF816B000C4B3DF /* Assets.xcassets */; };
 		1523AFA81BF816B000C4B3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1523AFA61BF816B000C4B3DF /* LaunchScreen.storyboard */; };
 		1523AFB31BF816B100C4B3DF /* HackSC2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523AFB21BF816B100C4B3DF /* HackSC2015Tests.swift */; };
 		1523AFBE1BF816B100C4B3DF /* HackSC2015UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523AFBD1BF816B100C4B3DF /* HackSC2015UITests.swift */; };
+		153F07A21BF8297300306863 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F07A11BF8297300306863 /* ReceiptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		1523AF9A1BF816B000C4B3DF /* HackSC2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackSC2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1523AF9D1BF816B000C4B3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1523AF9F1BF816B000C4B3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1523AF9F1BF816B000C4B3DF /* BarCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScannerViewController.swift; sourceTree = "<group>"; };
 		1523AFA21BF816B000C4B3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1523AFA41BF816B000C4B3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1523AFA71BF816B000C4B3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		1523AFB91BF816B100C4B3DF /* HackSC2015UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackSC2015UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1523AFBD1BF816B100C4B3DF /* HackSC2015UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackSC2015UITests.swift; sourceTree = "<group>"; };
 		1523AFBF1BF816B100C4B3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153F07A11BF8297300306863 /* ReceiptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				1523AF9D1BF816B000C4B3DF /* AppDelegate.swift */,
-				1523AF9F1BF816B000C4B3DF /* ViewController.swift */,
+				1523AF9F1BF816B000C4B3DF /* BarCodeScannerViewController.swift */,
+				153F07A11BF8297300306863 /* ReceiptViewController.swift */,
 				1523AFA11BF816B000C4B3DF /* Main.storyboard */,
 				1523AFA41BF816B000C4B3DF /* Assets.xcassets */,
 				1523AFA61BF816B000C4B3DF /* LaunchScreen.storyboard */,
@@ -192,6 +195,7 @@
 				TargetAttributes = {
 					1523AF991BF816B000C4B3DF = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 7MT8CL2PWH;
 					};
 					1523AFAD1BF816B100C4B3DF = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -255,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1523AFA01BF816B000C4B3DF /* ViewController.swift in Sources */,
+				153F07A21BF8297300306863 /* ReceiptViewController.swift in Sources */,
+				1523AFA01BF816B000C4B3DF /* BarCodeScannerViewController.swift in Sources */,
 				1523AF9E1BF816B000C4B3DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,10 +403,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HackSC2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.HackSC2015;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -409,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HackSC2015/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.HackSC2015;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -483,6 +494,7 @@
 				1523AFC41BF816B100C4B3DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1523AFC51BF816B100C4B3DF /* Build configuration list for PBXNativeTarget "HackSC2015Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +503,7 @@
 				1523AFC71BF816B100C4B3DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1523AFC81BF816B100C4B3DF /* Build configuration list for PBXNativeTarget "HackSC2015UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +512,7 @@
 				1523AFCA1BF816B100C4B3DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
